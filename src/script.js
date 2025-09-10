@@ -66,7 +66,7 @@ function updateCart() {
     const cartContainer = document.getElementById('cart');
 
     if (cart.length === 0) {
-        cartContainer.innerHTML = '<div class="cart-empty">Cart is empty</div>';
+        cartContainer.innerHTML = '<div class="cart-empty">il carrello è vuoto</div>';
         return;
     }
 
