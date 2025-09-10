@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <main class="container">
+        <h1>Catalogo prodotti</h1>
+
+        <section class="main-content">
+            <div class="catalog-section">
+                <h2 class="section-title">Prodotti</h2>
+                <div id="catalog" class="catalog">
+                </div>
+        </section>
+
+        <section class="cart-section">
+            <h2 class="cart-title">Carrello</h2>
+            <div id="cart" class="cart">
+            </div>
+        </section>
+
+        <section class="total-section">
+            <h3>Totale</h3>
+            <div id="total" class="total-amount">
+                <div id="total" class="total-amount">€0.00</div>
+                <button id="clear-cart" class="btn clear-cart-btn">Svuota Carrello</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
